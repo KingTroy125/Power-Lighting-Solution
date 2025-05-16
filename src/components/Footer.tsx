@@ -84,8 +84,13 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-10 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-xs sm:text-sm text-gray-400 mb-4 md:mb-0">© 2025 Power & Lighting Solutions. All rights reserved.</p>
-          <div className="flex space-x-4 sm:space-x-6">
+          <div className="flex flex-col md:flex-row items-center md:items-start">
+            <p className="text-xs sm:text-sm text-gray-400 mb-2 md:mb-0 md:mr-4">© 2025 Power & Lighting Solutions. All rights reserved.</p>
+            <p className="text-xs sm:text-sm text-gray-400">
+              Created by <a href="https://kingtroystudio.framer.website" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-light transition-colors">KingTroy.Studio</a>
+            </p>
+          </div>
+          <div className="flex space-x-4 sm:space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-xs sm:text-sm text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="text-xs sm:text-sm text-gray-400 hover:text-primary transition-colors">Terms of Service</Link>
             <Link to="/cookies" className="text-xs sm:text-sm text-gray-400 hover:text-primary transition-colors">Cookie Policy</Link>
