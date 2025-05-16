@@ -59,7 +59,7 @@ const Footer = () => {
                 <div className="w-5 h-5 flex items-center justify-center text-primary mr-2 sm:mr-3 mt-0.5 sm:mt-1">
                   <i className="ri-map-pin-line"></i>
                 </div>
-                <span className="text-sm sm:text-base text-gray-400">123 Electro Street, Circuit City, EC1 2PL</span>
+                <span className="text-sm sm:text-base text-gray-400">Cape Town, South Africa</span>
               </li>
               <li className="flex items-start">
                 <div className="w-5 h-5 flex items-center justify-center text-primary mr-2 sm:mr-3 mt-0.5 sm:mt-1">
@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="w-5 h-5 flex items-center justify-center text-primary mr-2 sm:mr-3 mt-0.5 sm:mt-1">
                   <i className="ri-mail-line"></i>
                 </div>
-                <span className="text-sm sm:text-base text-gray-400">info@powerlighting.com</span>
+                <span className="text-sm sm:text-base text-gray-400">info@powerandlighting.co.za</span>
               </li>
               <li className="flex items-start">
                 <div className="w-5 h-5 flex items-center justify-center text-primary mr-2 sm:mr-3 mt-0.5 sm:mt-1">
