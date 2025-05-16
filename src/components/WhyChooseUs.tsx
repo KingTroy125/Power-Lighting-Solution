@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="w-full md:w-1/2">
-            <img src="https://readdy.ai/api/search-image?query=professional%20electrician%20installing%20modern%20LED%20lighting%20in%20a%20contemporary%20home%2C%20showing%20detailed%20work%20with%20electrical%20wiring%2C%20energy-efficient%20solutions%2C%20clean%20and%20professional%20setting%2C%20high-quality%20image%20with%20soft%20lighting&width=600&height=500&seq=67890&orientation=landscape" 
+            <img src="./Fix.png" 
                  alt="Professional Electrical Services" 
                  className="rounded-xl w-full h-auto object-cover shadow-lg" />
           </div>
