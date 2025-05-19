@@ -25,7 +25,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#F5A623',
+					DEFAULT: '#38A169',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -63,7 +63,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				brand: {
-					orange: "#F5A623",
+					green: "#38A169",
 					black: "#000000",
 					darkGray: "#333333",
 					lightGray: "#F5F5F5"

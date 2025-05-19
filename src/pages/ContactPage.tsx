@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -21,7 +20,7 @@ const ContactPage = () => {
       
       <section className="py-16 px-6 md:px-12 lg:px-24 bg-gray-100">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-brand-orange mb-6">Contact Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-brand-green mb-6">Contact Us</h1>
           <p className="text-lg mb-12 max-w-3xl">
             Have questions or need to schedule a service? Our team is here to help. Reach out to us using any of the methods below, or fill out our contact form.
           </p>
@@ -32,27 +31,27 @@ const ContactPage = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-orange p-3 rounded-full text-white">
+                  <div className="bg-brand-green p-3 rounded-full text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Phone</h3>
-                    <a href="tel:021-531-0913" className="text-gray-700 hover:text-brand-orange transition-colors">021-531-0913</a>
+                    <a href="tel:021-531-0913" className="text-gray-700 hover:text-brand-green transition-colors">021-531-0913</a>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-orange p-3 rounded-full text-white">
+                  <div className="bg-brand-green p-3 rounded-full text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Email</h3>
-                    <a href="mailto:info@powerlightingsolutions.com" className="text-gray-700 hover:text-brand-orange transition-colors">info@powerlightingsolutions.com</a>
+                    <a href="mailto:info@powerlightingsolutions.com" className="text-gray-700 hover:text-brand-green transition-colors">info@powerlightingsolutions.com</a>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-orange p-3 rounded-full text-white">
+                  <div className="bg-brand-green p-3 rounded-full text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                   </div>
                   <div>
@@ -63,7 +62,7 @@ const ContactPage = () => {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-orange p-3 rounded-full text-white">
+                  <div className="bg-brand-green p-3 rounded-full text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 8v4l3 3"></path><circle cx="12" cy="12" r="10"></circle></svg>
                   </div>
                   <div>
@@ -86,7 +85,7 @@ const ContactPage = () => {
                     <input 
                       type="text" 
                       id="name" 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-orange"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-green"
                       required
                     />
                   </div>
@@ -96,7 +95,7 @@ const ContactPage = () => {
                     <input 
                       type="email" 
                       id="email" 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-orange"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-green"
                       required
                     />
                   </div>
@@ -107,7 +106,7 @@ const ContactPage = () => {
                   <input 
                     type="tel" 
                     id="phone" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-orange"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-green"
                   />
                 </div>
                 
@@ -115,7 +114,7 @@ const ContactPage = () => {
                   <label htmlFor="service" className="block mb-2 font-medium">Service Required</label>
                   <select 
                     id="service" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-orange"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-green"
                   >
                     <option value="">Select a service</option>
                     <option value="electrical-installations">Electrical Installations</option>
@@ -133,14 +132,14 @@ const ContactPage = () => {
                   <textarea 
                     id="message" 
                     rows={5}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-orange"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-green"
                     required
                   ></textarea>
                 </div>
                 
                 <button 
                   type="submit"
-                  className="bg-brand-orange text-white py-3 px-6 rounded-full hover:bg-opacity-90 transition-all"
+                  className="bg-brand-green text-white py-3 px-6 rounded-full hover:bg-opacity-90 transition-all"
                 >
                   Send Message
                 </button>
