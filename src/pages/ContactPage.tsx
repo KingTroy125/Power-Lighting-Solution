@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import PhoneButton from '@/components/Phone-button';
 import { useToast } from '@/hooks/use-toast';
 
 const ContactPage = () => {
@@ -17,6 +18,7 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
+      <PhoneButton />
       
       <section className="py-16 px-6 md:px-12 lg:px-24 bg-gray-100">
         <div className="max-w-6xl mx-auto">
