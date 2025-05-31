@@ -7,20 +7,17 @@ const Navbar01Page = () => {
   return (
     <div>
       <nav className="h-16 bg-background border-b">
-        <div className="h-full flex items-center justify-between max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Logo />
-
-          {/* Desktop Menu */}
-          <NavMenu className="hidden md:block" />
-
-          <div className="flex items-center gap-3">
-            <Button variant="outline" className="hidden sm:inline-flex">
-              Sign In
-            </Button>
-            <Button>Get Started</Button>
+        <div className="h-full flex items-center max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex-shrink-0">
+            <Logo />
+          </div>
+          
+          <div className="flex-grow flex items-center justify-end">
+            {/* Desktop Menu */}
+            <NavMenu className="hidden md:block" />
 
             {/* Mobile Menu */}
-            <div className="md:hidden">
+            <div className="md:hidden ml-4">
               <NavigationSheet />
             </div>
           </div>
