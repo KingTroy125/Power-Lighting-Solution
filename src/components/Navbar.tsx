@@ -31,28 +31,12 @@ const Navbar = () => {
         
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
-          <Link to="/contact" className="flex items-center bg-primary text-white px-4 py-2 rounded-button whitespace-nowrap mr-4">
-            <div className="w-5 h-5 flex items-center justify-center mr-2">
-              <i className="ri-phone-line"></i>
-            </div>
-            <span className="hidden sm:inline">021-531-0913</span>
-          </Link>
           <button 
             onClick={toggleMenu}
             className="text-gray-700 focus:outline-none"
           >
             <i className={`ri-${menuOpen ? 'close' : 'menu'}-line ri-2x`}></i>
           </button>
-        </div>
-        
-        {/* Desktop CTA Button */}
-        <div className="hidden md:block">
-          <Link to="/contact" className="flex items-center bg-primary text-white px-6 py-3 rounded-button whitespace-nowrap">
-            <div className="w-5 h-5 flex items-center justify-center mr-2">
-              <i className="ri-phone-line"></i>
-            </div>
-            <span>021-531-0913</span>
-          </Link>
         </div>
       </div>
       

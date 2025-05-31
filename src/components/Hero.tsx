@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
-  return (
-    <section className="hero-section w-full min-h-[500px] md:min-h-[600px] flex items-center">
-      <div className="hero-content w-full py-16 md:py-20 px-6">
+  return (    <section className="hero-section w-full min-h-[calc(100vh-64px)] flex items-center bg-background">
+      <div className="hero-content w-full py-8 md:py-12 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 pr-0 md:pr-12 mb-10 md:mb-0">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Professional Electrical & Lighting Solution</h1>
@@ -22,16 +21,15 @@ const Hero = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 relative mt-8 md:mt-0">
-            <div className="bg-black rounded-xl overflow-hidden">
+            <div className="bg-black rounded-xl overflow-hidden">              
               <div className="p-10 sm:p-16 flex flex-col items-center justify-center">
-                <div className="w-24 sm:w-32 h-24 sm:h-32 flex items-center justify-center text-primary mb-8">
+                <div className="w-48 sm:w-96 h-48 sm:h-96 flex items-center justify-center text-primary mb-8">
                   <img 
-                    src="Power&Lighting.png" 
+                    src="2.png" 
                     alt="Power & Lighting Solutions Icon" 
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <div className="text-primary text-2xl sm:text-4xl font-bold text-center">POWER & <br/>LIGHTING<br/>SOLUTIONS</div>
               </div>
             </div>
             <div className="absolute -bottom-6 right-0 bg-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg">
